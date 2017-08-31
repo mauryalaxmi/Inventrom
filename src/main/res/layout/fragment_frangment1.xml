@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="false"
+
+    android:layout_alignParentTop="false"
+    tools:context="layout.Frangment1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:onClick="launchCamera"
+        android:text="Click Picture"
+        android:textColor="#000fff"
+        android:textSize="30sp"
+        android:textStyle="bold|normal" />
+</FrameLayout>
